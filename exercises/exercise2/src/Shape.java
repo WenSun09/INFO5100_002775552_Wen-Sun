@@ -1,6 +1,7 @@
 public class Shape {
-    public Shape() {
+    public static String color = "Red";
 
+    public Shape() {
     }
 
     public double calculateArea() {
@@ -9,5 +10,9 @@ public class Shape {
 
     public double calculatePerimeter() {
         return 0.0;
+    }
+
+    public void printColor() {
+        System.out.println("Shape color:" + this.color);
     }
 }
