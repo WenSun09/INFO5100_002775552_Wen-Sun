@@ -62,9 +62,15 @@ public class ImageManageApplication extends Application {
         // create file chooser
         FileChooser fileChooser = new FileChooser();
         fileChooser.setTitle("Select one or more images");
+        fileChooser.getExtensionFilters().addAll(
+                new FileChooser.ExtensionFilter("Image Files", "*.png", "*.jpg")
+        );
 
         imagesPane.getChildren().clear();
         List<File> fileList = fileChooser.showOpenMultipleDialog(mainStage);
+        if (fileList == null) {
+            return;
+        }
         int row = 0;
         for (File file : fileList) {
             // display thumbnail
@@ -129,6 +135,9 @@ public class ImageManageApplication extends Application {
 
         // choose folder
         File selectedDir = dirChooser.showDialog(mainStage);
+        if (selectedDir == null) {
+            return;
+        }
         String selectedDirPath = selectedDir.getAbsolutePath();
 
         // save file
