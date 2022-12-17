@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a530886c-0d17-4541-8983-064b7b983965" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +30,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/sw199/OneDrive/neu/info5100/INFO5100_002775552_WenSun/Final Project/ImageManagementTool",
     "settings.editor.selected.configurable": "preferences.JavaFX"
   }
 }]]></component>
@@ -45,6 +43,8 @@
       <option name="presentableId" value="Default" />
       <updated>1671173856992</updated>
       <workItem from="1671173858190" duration="12395000" />
+      <workItem from="1671240714940" duration="86000" />
+      <workItem from="1671250148296" duration="70000" />
     </task>
     <servers />
   </component>
